@@ -60,16 +60,20 @@
     padding: 15px 17px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hero a{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
-    margin-top: 10px;
+    text-decoration: none;
 }
 
 /* Why Web Develpment */
 .ww_development{
     max-width: 1140px;
-    height: 1395px;
+    height: 1200px;
     margin: 80px auto;
     padding: 70px 85px;
     background: rgba(13, 19, 33, 0.02);
@@ -85,18 +89,18 @@
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
+    margin-bottom: 24px;
 }
 .wwd-top p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin: 24px;
     color: rgb(13, 19, 33);
 }
 /* card informaiton */
 .card{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .card-information{
@@ -292,9 +296,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
+}
+.support-padding{
+    padding: 64px 48px;
 }
 .support-sections-div1{
-    padding: 64px 0 0 48px;
     text-align: center;
 }
 .support-sections-div1 h1{
@@ -302,6 +309,7 @@
     font-weight: 700;
     color: rgb(255, 255, 255);
     line-height: 36px;
+    
 }
 .support-sections-div1 p{
     margin: 8px 0 24px 0;
@@ -328,3 +336,25 @@
     font-weight: 600;
 }
 /* Footer section */
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+footer p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+footer img{
+    width: 36px;
+    height: 36px;
+}
+footer .margin-img{
+    margin: 0 24px 0 24px;
+}
+html{
+    scroll-behavior: smooth;
+}
