@@ -165,3 +165,117 @@
     height: 550px;
     border-radius: 10px;
 }
+/* My current target */
+.current-target{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.current-information{
+    text-align: center;
+}
+.current-information h1{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.current-information p{
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(87, 87, 87);
+}
+.current-card-div{
+    display: flex;
+    gap: 20px;
+}
+.current-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 25px;
+    border-radius: 10px;
+    width: 364px;
+    height: 300px;
+}
+.current-card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px ;
+}
+.current-card h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.current-card p{
+    margin: 20px 0 25px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
+.current-card a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Next target */
+.next-target{
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+}
+.next-information{
+    text-align: center;
+}
+.next-information h1{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.next-information p{
+    margin: 24px 0 48px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(87, 87, 87);
+}
+.next-target-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.next-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.next-card .image{
+    margin-right: 24px;
+}
+.next-card h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.next-card p{
+    margin: 8px 0 24px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(87, 87, 87);
+}
+.next-card a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
