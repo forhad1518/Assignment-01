@@ -370,7 +370,23 @@ html{
 
 /* Media Query For 576px */
 @media screen and (max-width: 576px) {
-
+    /* My target */
+    .current-card-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .next-target{
+        margin-top: 50px;
+    }
+    .next-target-div{
+        padding: 10px;
+    }
+    .next-card{
+        padding: 25px 25px;
+        flex-direction: column;
+        text-align: justify;
+        box-shadow: 1px 0px 12px 0px #bbbbbb;
+    }
     /* For support section */
     .support-sections{
         width: 576px;
