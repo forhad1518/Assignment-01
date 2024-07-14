@@ -370,9 +370,36 @@ html{
 
 /* Media Query For 576px */
 @media screen and (max-width: 576px) {
+    /* Header */
+    #nav{
+        gap: 0px;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .hero img{
+        width: 150px;
+    }
+    .hero h1{
+        font-size: 24px;
+    }
+    /* Why web development */
+    .ww_development {
+        padding: 25px 10px;
+        height: auto;
+    }
+    .wwd-top{
+        margin-bottom: 25px;
+    }
+    .card-information{
+        border-radius: 0px;
+        margin: 0 auto;
+    }
+    .card{
+        flex-direction: column-reverse;
+    }
     /* My Inspiration */
     .video{
-        width: 500px;
+        width: 450px;
         height: auto;
     }
     /* My target */
@@ -394,8 +421,9 @@ html{
     }
     /* For support section */
     .support-sections{
-        width: 576px;
+        width: auto;
         height: auto;
+        /* margin: none; */
     }
     .support-padding{
         padding: 64px 10px;
@@ -407,6 +435,12 @@ html{
         align-items: center;
     }
     .support-sections-div2 input{
-        width: 400px;
+        padding: 10px;
+        width: 350px;
+    }
+    .support-sections-div2 button{
+        padding: 10px;
+        width: auto;
+        height: auto;
     }
 }
