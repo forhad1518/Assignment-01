@@ -443,4 +443,9 @@ html{
         width: auto;
         height: auto;
     }
+    #footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 }
