@@ -444,8 +444,10 @@ html{
         height: auto;
     }
     #footer{
+        width: auto;
         flex-direction: column;
         text-align: center;
         gap: 10px;
+        padding: 20px 35px;
     }
 }
