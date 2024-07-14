@@ -370,6 +370,11 @@ html{
 
 /* Media Query For 576px */
 @media screen and (max-width: 576px) {
+    /* My Inspiration */
+    .video{
+        width: 500px;
+        height: auto;
+    }
     /* My target */
     .current-card-div{
         flex-direction: column;
